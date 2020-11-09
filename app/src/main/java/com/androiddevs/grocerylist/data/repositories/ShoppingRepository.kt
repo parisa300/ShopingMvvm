@@ -10,5 +10,6 @@ class ShoppingRepository(
 
     suspend fun delete(item: ShoppingItem) = db.getShoppingDao().delete(item)
 
+
     fun getAllShoppingItems() = db.getShoppingDao().getAllShoppingItems()
 }

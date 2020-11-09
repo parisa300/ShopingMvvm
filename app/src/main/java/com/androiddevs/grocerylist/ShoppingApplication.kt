@@ -28,4 +28,5 @@ class ShoppingApplication: Application(), KodeinAware {
             )
         }
     }
+
 }

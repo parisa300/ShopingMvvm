@@ -48,4 +48,5 @@ class ShoppingActivity : AppCompatActivity(), KodeinAware {
         }
     }
 
+
 }

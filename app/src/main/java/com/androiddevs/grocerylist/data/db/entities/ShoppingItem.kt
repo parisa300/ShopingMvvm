@@ -11,6 +11,7 @@ data class ShoppingItem(
     @ColumnInfo(name = "item_amount")
     var amount: Int
 ) {
+
     @PrimaryKey(autoGenerate = true)
     var id: Int? = null
 }

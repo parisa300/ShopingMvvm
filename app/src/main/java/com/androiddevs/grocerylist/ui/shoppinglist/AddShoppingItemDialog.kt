@@ -32,6 +32,7 @@ class AddShoppingItemDialog(context: Context, var addDialogListener: AddDialogLi
 
         tvCancel.setOnClickListener {
             cancel()
+
         }
     }
 }

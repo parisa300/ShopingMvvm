@@ -7,4 +7,5 @@ class CustomTriple<A:Any,B:Any,C:Any>(
     var third:C
 
 ) {
+
 }

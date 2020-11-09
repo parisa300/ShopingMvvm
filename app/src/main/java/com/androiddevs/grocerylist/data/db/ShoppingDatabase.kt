@@ -24,6 +24,7 @@ abstract class ShoppingDatabase: RoomDatabase() {
             instance
                 ?: createDatabase(
                     context
+
                 ).also { instance = it }
         }
 

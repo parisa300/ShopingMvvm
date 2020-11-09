@@ -19,6 +19,7 @@ class ShoppingItemAdapter(
         return ShoppingViewHolder(view)
     }
 
+
     override fun getItemCount(): Int {
         return items.size
     }
